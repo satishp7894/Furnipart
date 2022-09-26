@@ -4,7 +4,6 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:switcher_button/switcher_button.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_svg/svg.dart';
 import 'package:furnipart_sales/constants/asset_constants.dart';
 import 'package:furnipart_sales/model/customer.dart';
 import 'package:furnipart_sales/model/product.dart';

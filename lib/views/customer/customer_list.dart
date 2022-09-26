@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 import 'package:furnipart_sales/constants/asset_constants.dart';
 import 'package:furnipart_sales/constants/colors.dart';
 import 'package:furnipart_sales/model/customer.dart';

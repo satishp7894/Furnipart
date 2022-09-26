@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
+// import 'package:flutter_svg/flutter_svg.dart';
 import '../../constants/asset_constants.dart';
 import '../../shared/styles.dart';
 
@@ -106,37 +106,37 @@ class ProductCard extends StatelessWidget {
                           child: Row(
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
-                              GestureDetector(
-                                onTap: onMinusTap,
-                                child: Container(
-                                  // color: Colors.transparent,
-                                  width: 41,
-                                  alignment: Alignment.center,
-                                  child: SvgPicture.asset(
-                                    AssetConstants.subtractIcon,
-                                    width: 25,
-                                      color: Colors.red
-                                  ),
-                                ),
-                              ),
+                              // GestureDetector(
+                              //   onTap: onMinusTap,
+                              //   child: Container(
+                              //     // color: Colors.transparent,
+                              //     width: 41,
+                              //     alignment: Alignment.center,
+                              //     child: SvgPicture.asset(
+                              //       AssetConstants.subtractIcon,
+                              //       width: 25,
+                              //         color: Colors.red
+                              //     ),
+                              //   ),
+                              // ),
                               Text(
                                 qtyInCart.toString(),
                                 style: paragraph6.copyWith(color: appBlackColor),
                               ),
-                              GestureDetector(
-                                onTap: onPlusTap,
-                                child: Container(
-                                  color: Colors.transparent,
-                                  width: 41,
-                                  alignment: Alignment.center,
-                                  child: SvgPicture.asset(
-                                    AssetConstants.addIcon,
-                                    width: 25,
-                                    color: Colors.red,
-
-                                  ),
-                                ),
-                              ),
+                              // GestureDetector(
+                              //   onTap: onPlusTap,
+                              //   child: Container(
+                              //     color: Colors.transparent,
+                              //     width: 41,
+                              //     alignment: Alignment.center,
+                              //     child: SvgPicture.asset(
+                              //       AssetConstants.addIcon,
+                              //       width: 25,
+                              //       color: Colors.red,
+                              //
+                              //     ),
+                              //   ),
+                              // ),
                             ],
                           ),
                         )

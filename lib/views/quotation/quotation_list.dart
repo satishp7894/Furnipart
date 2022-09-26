@@ -9,7 +9,6 @@ import 'package:flutter_share/flutter_share.dart';
 
 // import 'package:flutter_full_pdf_viewer/full_pdf_viewer_scaffold.dart';
 // import 'package:flutter_pdfview/flutter_pdfview.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 import 'package:furnipart_sales/constants/asset_constants.dart';
 import 'package:furnipart_sales/constants/colors.dart';
 import 'package:furnipart_sales/main.dart';
